@@ -1,0 +1,7 @@
+name: LiemSiCard-RECODE
+author: MasterClaus-RECODE_BY-loc4atnt
+version: 1.3
+main: net.minefs.DoiCard_RECODE.DoiCard
+depends: [PlayerPoints,HolographicDisplays,XLibs]
+commands:
+ napthe:

@@ -1,0 +1,22 @@
+id: 'partner_id'
+key: 'partner_key'
+secret: 'secret'
+callback_url: '' # đường dẫn url tới file callback.php, LƯU Ý: Phần tên miền ghi ip số thay vì ghi localhost
+server: 'towny' # Tên này sẽ được log trên MySQL để dễ dàng thống kê
+tile: 1 # KM 50% thì tỉ lệ là 1.5, 100% thì tỉ lệ là 2, không KM thì là 1
+mysql:
+ enabled: true
+ host: localhost
+ port: 3306
+ user: user
+ password: pass
+ database: server
+status:
+  '0': 'Đang duyệt'
+  '1': 'Thành công'
+  '101': 'Sai điều kiện gửi thẻ'
+  '102': 'Gửi lệnh nạp không thành công'
+  '103': 'Từ chối nạp thẻ này'
+  '104': 'Thẻ sai'
+  '201': 'Thẻ trùng'
+point_name: 'Xu' # Tên gọi của point trong server
